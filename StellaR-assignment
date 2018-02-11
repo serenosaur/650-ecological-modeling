@@ -1,0 +1,25 @@
+StellaR - A program that uses python to translate Stella models into R scripts
+
+http://www.r-gis.net/stellar/
+
+a) Export Stella model to text format
+  Open your model in Stella
+  Go to the equation layer
+  File -> Save as Text
+  Put this text file in your working directory for the project
+b) Translate the Stella model into R script
+  Open up your terminal
+  make the folder containing the stella text model your current working directory
+  > StellaR model.txt newname
+  The output is in a new directory named "newname"
+c) Open the translated model in R, take a look at what you've got
+  the script will be called "newname"
+  run it all, see what comes out!
+  the model itself is defined in the function{} portion of the script
+  the "newname_functions" file holds functions that the r script may or may not need in order to run. depends on the model.
+  
+  
+Assignment objectives: 
+1) Refamiliarize yourself with Stella
+2) Create 2-3 models in Stella (follow examples in textbook, chapter 3) and successfully export to R
+3) Upload annotated breakdown of one of the StellaR output scripts
