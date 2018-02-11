@@ -1,0 +1,7 @@
+Week1 and Week2 assignment
+assignment goals:
+
+    import dataset into R
+    clean and reformat data (particularly, make the date column dates)
+    graph the data (include error bars and team numbers)
+    export the graph
